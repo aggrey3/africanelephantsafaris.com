@@ -1,0 +1,402 @@
+*{
+    box-sizing:border-box ;
+
+}
+    
+
+
+
+
+.container3{
+    padding:2rem;
+}
+.slider-wrapper{
+    position: relative;
+    max-width: 48rem;
+    margin: 0 auto;
+}
+.slider{
+    display:flex;
+    aspect-ratio: 16/9;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    scroll-behavior: smooth; 
+    box-shadow:0 1.5rem 3rem -0.75rem hsla(0 ,0%, 0%, 0.25);
+    border-radius: 0.5rem;
+}
+.slider img{
+    flex:1 0 100%;
+    scroll-snap-align: start;
+    object-fit: cover;
+}
+.slider-nav{
+    display: flex;
+    column-gap: 1rem;
+    position: absolute;
+    bottom: 1.25rem;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1;
+}
+.slider-nav a {
+    width: 1.5rem;
+    height: 1.5rem;
+    border-radius: 50%;
+    background-color: #4f0d0d;
+    opacity:0.75;
+    transition-property: opacity ease 250ms;
+}
+.slider-nav a:hover {
+    opacity:1;
+}
+
+
+#content2{
+    min-height: 100vh;
+    width: 100%;
+    background-image: 
+    url(reece/aggrey13.jpg);
+    background-position: center;
+    background-size: cover;
+    background-position: relative;
+}
+#content7{
+    min-height: 100vh;
+    width: 100%;
+    background-image: 
+    url(reece/aggrey12.jpg);
+    background-position: center;
+    background-size: cover;
+    background-position: relative;
+}
+#content3{
+    min-height: 100vh;
+    width: 100%;
+    background-image: 
+    url(reece2/aggrey14.jpg);
+    background-position: center;
+    background-size: cover;
+    background-position: relative;
+}
+#content8{
+    min-height: 100vh;
+    width: 100%;
+    background-image: 
+    url(reece2/aggrey15.jpg);
+    background-position: center;
+    background-size: cover;
+    background-position: relative;
+}
+#content1{
+    min-height: 100vh;
+    width: 100%;
+    background-image: 
+    url(reece2/aggrey16.jpg);
+    background-position: center;
+    background-size: cover;
+    background-position: relative;
+}
+#content6{
+    min-height: 100vh;
+    width: 100%;
+    background-image: 
+    url(reece2/aggrey17.jpg);
+    background-position: center;
+    background-size: cover;
+    background-position: relative;
+}
+#content4{
+    min-height: 100vh;
+    width: 100%;
+    background-image: 
+    url(reece2/aggrey19.jpg);
+    background-position: center;
+    background-size: cover;
+    background-position: relative;
+}
+#content9{
+    min-height: 100vh;
+    width: 100%;
+    background-image: 
+    url(reece2/aggrey20.jpg);
+    background-position: center;
+    background-size: cover;
+    background-position: relative;
+}
+#content5{
+    min-height: 100vh;
+    width: 100%;
+    background-image: 
+    url(reece2/aggrey21.jpg);
+    background-position: center;
+    background-size: cover;
+    background-position: relative;
+}
+#content10{
+    min-height: 100vh;
+    width: 100%;
+    background-image: 
+    url(reece/aggrey13.jpg);
+    background-position: center;
+    background-size: cover;
+    background-position: relative;
+}
+.card{
+    height: 700px;
+    
+    background-color:lightsteelblue;
+    
+}
+.card:hover{
+    font-size: 15px;
+    background-color:white;
+}
+#card400,#card401,#card402,#card403,#card404,#card405,#card406,#card407,
+#card408,#card409,#card410,#card411,#card412,#card413,#card414,#card415,
+#card416,#card417,#card418,#card419,#card420,#card421,#card422,#card423,
+#card424,#card425,#card426,#card427,#card428,#card429{
+    height: auto;
+    box-shadow: 10px 10px 10px darkslategrey;
+}
+
+#card100000{
+    height: 400px;
+}
+
+#img{
+    height: 500px;
+}
+#card200000,#card200001,#card200002{
+    height: auto;
+}
+#card200003,#card200004,#card200005{
+    height: auto;
+}
+
+#card23,#card24,#card25{
+    height: 1000px;
+}
+    
+    
+
+#card11{
+    position: relative;
+
+}
+#card201{
+    position: absolute;
+    height: 120px;
+    width: 300px;
+    left: 660px;
+}
+#card200{
+    position: absolute;
+    height: 90px;
+    width: 150px;
+    left: 660px;
+    display: none;
+}
+
+#card1000{
+    max-height: 200px;
+    margin-left: none;
+    margin-right: none;
+    color: white;
+    background-color: black;
+    
+}
+#container50{
+    background-color: black;
+}
+#container51,#container52,#container53,#container54,#container55{
+    background-color: black;
+}
+*{a:link{
+    
+}
+a:hover{
+    color: white;
+    font-size: 20px;
+}
+box-sizing: border-box;
+}
+#container1000{
+    
+}
+
+
+#context1{
+    min-height: 100vh;
+    width: 100%;
+    background-image: 
+    url(reece2/aggrey15.jpg);
+    background-position: center;
+    background-size: cover;
+    background-position: relative;
+}
+
+#context2{
+    min-height: 100vh;
+    width: 100%;
+    background-image: 
+    url(reece2/aggrey19.jpg);
+    background-position: center;
+    background-size: cover;
+    background-position: relative;
+}
+#button1,#button2,#button3,#button4,#button5,#button6{
+    
+    color:rgb(209, 20, 190);
+    background-color:rgb(3, 28, 28);
+    
+    float:left 
+    
+    
+}
+
+#context3{
+    min-height: 100vh;
+    width: 100%;
+    background-image: 
+    url(reece/aggrey12.jpg);
+    background-position: center;
+    background-size: cover;
+    background-position: relative;
+}
+#context4{
+    min-height: 100vh;
+    width: 100%;
+    background-image: 
+    url(reece/aggrey13.jpg);
+    background-position: center;
+    background-size: cover;
+    background-position: relative;
+}
+#context5{
+    min-height: 100vh;
+    width: 100%;
+    background-image: 
+    url(reece2/aggrey14.jpg);
+    background-position: center;
+    background-size: cover;
+    background-position: relative;
+}
+#context8{
+    min-height: 100vh;
+    width: 100%;
+    background-image: 
+    url(reece/aggrey13.jpg);
+    background-position: center;
+    background-size: cover;
+    background-position: relative;
+}
+#context9{
+    min-height: 100vh;
+    width: 100%;
+    background-image: 
+    url(reece2/aggrey15.jpg);
+    background-position: center;
+    background-size: cover;
+    background-position: relative;
+}
+#context500{
+    min-height: 100vh;
+    width: 100%;
+    background-image: 
+    url(reece/aggrey13.jpg);
+    background-position: center;
+    background-size: cover;
+    background-position: relative;
+}
+#context501{
+    min-height: 100vh;
+    width: 100%;
+    background-image: 
+    url(reece3/aggrey30.jpg);
+    background-position: center;
+    background-size: cover;
+    background-position: relative;
+}
+#context950{
+    min-height: 100vh;
+    width: 100%;
+    background-image: 
+    url(reece3/aggrey30.jpg);
+    background-position: center;
+    background-size: cover;
+    background-position: relative;
+}
+#Tourism{
+    min-height: 100vh;
+    width: 100%;
+    background-image: 
+    url(reece3/aggrey23.jpg);
+    background-position: center;
+    background-size: cover;
+    background-position: relative;
+}
+#container3{
+    min-height: 100vh;
+    width: 100%;
+    background-image: 
+    url(reece3/aggrey30.jpg);
+    background-position: center;
+    background-size: cover;
+    background-position: relative;
+}
+#AfricanFeatures {
+    min-height: 100vh;
+    width: 100%;
+    background-image: 
+    url(reece3/aggrey35.jpg);
+    background-position: center;
+    background-size: cover;
+    background-position: relative;
+}
+#container1000000{
+    min-height: 300px;
+    width: 100%;
+    background-image: 
+    url(reece/aggrey12.jpg);
+    background-position: center;
+    background-size: cover;
+    background-position: relative;
+}
+#container700{
+    min-height: 100vh;
+    width: 100%;
+    background-image: 
+    url(reece2/aggrey19.jpg);
+    background-position: center;
+    background-size: cover;
+    background-position: relative;
+}
+#container3333{
+    
+
+}
+#card11,#card12,#card13{
+    height: 400px;
+}
+#card17,#card18,#card19{
+    height: 800px;
+}
+#card63,#card64,#card65{
+    height: 1400px;
+}#card60,#card61,#card62{
+    height: 1200px;
+}
+#card831,#card832,#card833{
+    height: 300px;
+}
+
+    
+
+#button4{
+    color:rgb(209, 20, 190);
+    background-color:rgb(3, 28, 28);
+}
+
+#card20,#card21,#card22{
+    height: 600px;
+}
