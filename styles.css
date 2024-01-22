@@ -389,10 +389,6 @@ box-sizing: border-box;
 #card831,#card832,#card833{
     height: 300px;
 }
-#card1000,#card1001,#card1002,#card1003,#card1004{
-   margin-top:auto ;
-   margin-bottom: 0;
-}
 
 
  
@@ -406,6 +402,6 @@ box-sizing: border-box;
     height: 600px;
 }
 #card1000,#card1001,#card1002,#card1003,#card1004{
-   
+   padding-bottom:-30px);
    margin-bottom: 0;
 }
