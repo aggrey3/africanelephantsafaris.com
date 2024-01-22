@@ -389,7 +389,14 @@ box-sizing: border-box;
 #card831,#card832,#card833{
     height: 300px;
 }
+*{
+overflow-x:hidden ;/*Hide horizontal scroll bar*/
+margin-right:0 ;
+margin-left: 0;
 
+
+
+}
 
  
 
