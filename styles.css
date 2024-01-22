@@ -376,15 +376,15 @@ box-sizing: border-box;
 
 }
 #card11,#card12,#card13{
-    height: 600px;
+    height: 400px;
 }
 #card17,#card18,#card19{
-    height: 1000px;
+    height: 800px;
 }
 #card63,#card64,#card65{
-    height: 1600px;
-}#card60,#card61,#card62{
     height: 1400px;
+}#card60,#card61,#card62{
+    height: 1200px;
 }
 #card831,#card832,#card833{
     height: 500px;
@@ -394,9 +394,7 @@ box-sizing: border-box;
 overflow-x:hidden ;/*Hide horizontal scroll bar*/
 margin-right:0 ;
 margin-left: 0;
-min-height: 100vh;
-display: flex;
-flex-direction: column;
+
 
 }    
 
@@ -409,6 +407,6 @@ flex-direction: column;
     height: 600px;
 }
 #card1000,#card1001,#card1002,#card1003,#card1004{
-   margin-top:auto ;
+   
    margin-bottom: 0;
 }
